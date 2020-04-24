@@ -6,10 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-        <fragment
+        <FrameLayout
             android:id="@+id/frame_main_fragmentContainer"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
-            android:name="com.example.materialdesigntutorial.FragmentMain"/>
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+        </FrameLayout>
+
+
+
 </FrameLayout>
