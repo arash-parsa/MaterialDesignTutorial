@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Recents" android:id="@+id/menu_recents" android:icon="@drawable/ic_recents_24dp"/>
+    <item android:title="Home" android:id="@+id/menu_home" android:icon="@drawable/ic_home_24dp"/>
+    <item android:title="Nearby" android:id="@+id/menu_nearby" android:icon="@drawable/ic_nearby_24dp"/>
+
+</menu>
